@@ -133,6 +133,14 @@ let g:vimwiki_list = [{'path': '~/vimmd/',
 let g:list_margin = 0
 
 "--------------markdown--------------
+"--------------vimtex---------------
+let g:vimtex_enabled=1
+let g:tex_flavor='latex'
+
+"let g:livepreview_previewer = 'zathura'
+let g:livepreview_cursorhold_recompile = 0
+
+let g:tex_conceal='abdmg'
 
 "--------------autocmd---------------
 if has("autocmd")

@@ -16,3 +16,9 @@
 [submodule "pack/thirdparty/start/vim-markdown"]
 	path = pack/thirdparty/start/vim-markdown
 	url = git@github.com:plasticboy/vim-markdown.git
+[submodule "pack/thirdparty/start/vimtex"]
+	path = pack/thirdparty/start/vimtex
+	url = git@github.com:lervag/vimtex.git
+[submodule "pack/thirdparty/start/vim-latex-live-preview"]
+	path = pack/thirdparty/start/vim-latex-live-preview
+	url = git@github.com:xuhdev/vim-latex-live-preview.git
