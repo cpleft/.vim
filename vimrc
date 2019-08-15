@@ -62,11 +62,12 @@ nnoremap <c-w>- <c-w>99-
 
 noremap! <c-f> <right>
 noremap! <c-b> <left>
-noremap! <c-a> <esc>I                   "override imap
-noremap! <c-e> <esc>A                   "override imap
+noremap! <c-a> <esc>I
+noremap! <c-e> <esc>A
 noremap! <m-f> <c-right>
 noremap! <m-b> <c-left>
-noremap! <c-d> <right><BS>              "override imap
+noremap! <c-d> <right><BS>
+
 
 
 imap <c-return> <Esc>o
