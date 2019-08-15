@@ -6,16 +6,15 @@ set columns=95
 
 set cursorline
 set linespace=0
-set go=Pi
+set go=ai
 
 
 "----------font--------------
 "set guifont=Monaco\ 12
-set guifont=Dejavu\ Sans\ Mono\ 14
+set guifont=Dejavu\ Sans\ Mono\ 12
 
 "---------colorscheme--------
 "let &background='light'
-"colorscheme black_and_white
 
 "colorscheme blackboard
 "colorscheme moria                           "不错的亮色
@@ -33,7 +32,7 @@ set guifont=Dejavu\ Sans\ Mono\ 14
 "colorscheme gruvbox                        "棕
 "colorscheme wonka                          "无
 "colorscheme willy                          "无
-colorscheme guardian                       "棕丝
+"colorscheme guardian                       "棕丝
 
 "colorscheme phosphor                       "green
 
