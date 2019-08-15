@@ -11,7 +11,7 @@ set go=ai
 
 "----------font--------------
 "set guifont=Monaco\ 12
-set guifont=Dejavu\ Sans\ Mono\ 12
+set guifont=Dejavu\ Sans\ Mono\ 12          "12 or 19
 
 "---------colorscheme--------
 "let &background='light'
