@@ -5,8 +5,8 @@ syntax on
 
 "------nomal---------
 set tabstop=8
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set t_Co=256
 set autoindent
@@ -14,7 +14,7 @@ set autoindent
 "set cindent
 set foldcolumn=0
 set nowrapscan
-set number
+"set number
 "set ruler
 set showcmd
 set mouse=a
@@ -64,8 +64,6 @@ noremap! <c-f> <right>
 noremap! <c-b> <left>
 noremap! <c-a> <esc>I
 noremap! <c-e> <esc>A
-noremap! <m-f> <c-right>
-noremap! <m-b> <c-left>
 noremap! <c-d> <right><BS>
 
 

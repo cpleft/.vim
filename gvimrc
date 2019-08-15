@@ -11,10 +11,12 @@ set go=Pi
 
 "----------font--------------
 "set guifont=Monaco\ 12
-set guifont=Dejavu\ Sans\ Mono\ 13
+set guifont=Dejavu\ Sans\ Mono\ 14
 
 "---------colorscheme--------
 "let &background='light'
+"colorscheme black_and_white
+
 "colorscheme blackboard
 "colorscheme moria                           "不错的亮色
 "colorscheme 1989 
@@ -28,7 +30,13 @@ set guifont=Dejavu\ Sans\ Mono\ 13
 "colorscheme peaksea
 "colorscheme grape
 
-colorscheme gruvbox                        "棕
+"colorscheme gruvbox                        "棕
+"colorscheme wonka                          "无
+"colorscheme willy                          "无
+colorscheme guardian                       "棕丝
+
+"colorscheme phosphor                       "green
+
 
 "--------cursor-----------------
 set gcr=a:blinkon0                          "关闭光标闪烁
