@@ -10,9 +10,6 @@
 [submodule "pack/thirdparty/start/calendar.vim"]
 	path = pack/thirdparty/start/calendar.vim
 	url = git@github.com:itchyny/calendar.vim.git
-[submodule "pack/thirdparty/start/auto-pairs"]
-	path = pack/thirdparty/start/auto-pairs
-	url = git@github.com:jiangmiao/auto-pairs.git
 [submodule "pack/thirdparty/start/vim-markdown"]
 	path = pack/thirdparty/start/vim-markdown
 	url = git@github.com:plasticboy/vim-markdown.git
