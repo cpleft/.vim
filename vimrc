@@ -74,6 +74,9 @@ imap <s-return> <esc>O
 "插入一行空行
 nmap <leader><return> o<esc>
 
+"gf
+nmap gf :e <cfile><cr>
+
 "--------split management---------
 set splitbelow
 set splitright
