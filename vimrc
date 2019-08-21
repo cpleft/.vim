@@ -11,7 +11,6 @@ set expandtab
 set t_Co=256
 set autoindent
 "set smartindent
-"set cindent
 set foldcolumn=0
 set nowrapscan
 "set number
