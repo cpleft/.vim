@@ -88,6 +88,11 @@ set foldlevelstart=99                      "打开文件时不折叠
               "cause a bug: when using ,bn the lines will be fold closed.
                                             "用空格来开关折叠
 
+
+"------------------------------------
+set foldcolumn=8
+hi foldcolumn ctermbg=0
+
 "--------------encodings-------------
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 set enc=utf-8
@@ -124,4 +129,3 @@ let g:tex_conceal='abdmg'
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
-
