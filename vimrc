@@ -54,9 +54,7 @@ nmap <leader>bp :bp<cr>
 nmap <leader>bn :bn<cr>
 
 vmap <leader>y "+y
-
-nnoremap <c-w>+ <c-w>99+
-nnoremap <c-w>- <c-w>99-
+nmap <leader>v ggVG
 
 
 noremap! <c-f> <right>
