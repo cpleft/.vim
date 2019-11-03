@@ -57,14 +57,6 @@ vmap <leader>y "+y
 nmap <leader>v ggVG
 
 
-noremap! <c-f> <right>
-noremap! <c-b> <left>
-noremap! <c-a> <esc>I
-noremap! <c-e> <esc>A
-noremap! <c-d> <right><BS>
-
-
-
 imap <c-return> <Esc>o
 imap <s-return> <esc>O
 
