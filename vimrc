@@ -72,7 +72,7 @@ imap <s-return> <esc>O
 nmap <leader><return> o<esc>
 
 "gf
-nmap gf :e <cfile><cr>
+nmap gf :e <cfile>
 
 "--------split management---------
 set splitbelow
