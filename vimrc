@@ -57,9 +57,6 @@ vmap <leader>y "+y
 nmap <leader>v ggVG
 
 
-imap <c-return> <Esc>o
-imap <s-return> <esc>O
-
 "插入一行空行
 nmap <leader><return> o<esc>
 
