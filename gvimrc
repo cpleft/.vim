@@ -5,7 +5,7 @@ set cursorline
 set linespace=0
 set go=ai
 
-set foldcolumn=8
+set foldcolumn=0
 
 "----------font--------------
 "set guifont=Monaco\ 12
@@ -19,7 +19,7 @@ set guifont=RobotoMono\ 13
 "colorscheme 1989 
 "colorscheme fruidle                        "橘黄的亮色
 "colorscheme Monokai                        "sublime default
-colorscheme guardian                       "棕丝
+"colorscheme guardian                       "棕丝
 "colorscheme phosphor                       "green
 
 "--------cursor-----------------
@@ -30,6 +30,7 @@ set gcr=a:blinkon0                          "关闭光标闪烁
 hi vertsplit guifg=bg guibg=bg
 hi foldcolumn guibg=bg
 
+"---------mappings-------------
 
 "--------autocmd---------------
 augroup autosourcing

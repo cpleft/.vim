@@ -11,7 +11,6 @@ set expandtab
 set t_Co=256
 set autoindent
 "set smartindent
-set foldcolumn=0
 set nowrapscan
 "set number
 "set ruler
@@ -63,6 +62,7 @@ nmap <leader><return> o<esc>
 "gf
 nmap gf :e <cfile>
 
+
 "--------split management---------
 set splitbelow
 set splitright
@@ -77,7 +77,7 @@ set foldlevelstart=99                      "打开文件时不折叠
 
 
 "------------------------------------
-set foldcolumn=8
+set foldcolumn=0
 hi foldcolumn ctermbg=0
 
 "--------------encodings-------------
