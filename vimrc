@@ -13,9 +13,10 @@ set autoindent
 "set smartindent
 set nowrapscan
 "set number
-"set ruler
+set ruler
 set showcmd
 set mouse=a
+set nowrap
 
 set autowriteall         "Automatically write the file when switching
 "set complete =.,w,b,u
@@ -34,15 +35,15 @@ set ignorecase
 "----------auto-command---------
 augroup autosourcing
     autocmd!
-    autocmd BufwritePost ~/.vim/vimrc source % 
+    autocmd BufwritePost $MYVIMRC source % 
 augroup END
 
 
 
 "---------mapping----------------
-nmap <leader>ev :edit ~/.vim/vimrc<cr>
-nmap <leader>es :edit ~/.vim/UltiSnips/
-nmap <leader>eg :edit ~/.vim/gvimrc<cr>
+nmap <leader>ev :sp $MYVIMRC<cr>
+nmap <leader>es :sp ~/.vim/UltiSnips/
+nmap <leader>eg :sp $MYGVIMRC<cr>
 
 
 map <m-j> 10j
@@ -57,7 +58,19 @@ nmap <leader>v ggVG
 
 
 "插入一行空行
-nmap <leader><return> o<esc>
+nmap <leader><return> a<return><esc>
+
+nmap <leader><down> o<esc>
+nmap <leader>j o<esc>
+
+nmap <leader><up> O<esc>
+nmap <leader>k O<esc>
+
+nmap <leader><left> i<space><esc>
+nmap <leader>h i<space><esc>
+
+nmap <leader><right> a<space><esc>
+nmap <leader>l a<space><esc>
 
 "gf
 nmap gf :e <cfile>
