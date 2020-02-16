@@ -1,34 +1,34 @@
 extends c
 
-snippet class "class .. (class)" bA
-class ${1:"name"} {
-$0
-};
-endsnippet
-
-snippet namespace "namespace .. (namespace)" bA
-namespace${1/.+/ /m}${1:`!p snip.rv = snip.basename or "name"`}
-{
-	${VISUAL}$0
-}
-endsnippet
-
-snippet template "template <typename ..> (template)" bA
-template <typename ${1:InputIterator}$0>
-endsnippet
-
-snippet cpp "" bA
-#include <iostream>
-#include <string>
-#include <cstring>
-#include <vector>
-#include <algorithm>
-using namespace std;
-
-int main()
-{
-    ${1:}
-
-    return 0;
-}$0
-endsnippet
+#snippet class "class .. (class)" bA
+#class ${1:"name"} {
+#$0
+#};
+#endsnippet
+#
+#snippet namespace "namespace .. (namespace)" bA
+#namespace${1/.+/ /m}${1:`!p snip.rv = snip.basename or "name"`}
+#{
+#	${VISUAL}$0
+#}
+#endsnippet
+#
+#snippet template "template <typename ..> (template)" bA
+#template <typename ${1:InputIterator}$0>
+#endsnippet
+#
+#snippet cpp "" bA
+##include <iostream>
+##include <string>
+##include <cstring>
+##include <vector>
+##include <algorithm>
+#using namespace std;
+#
+#int main()
+#{
+#    ${1:}
+#
+#    return 0;
+#}$0
+#endsnippet

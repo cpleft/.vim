@@ -1,57 +1,16 @@
-snippet file "file info" bA
-/* file		: `!p snip.rv = path` 
- * by		: waterlemon	429426523@qq.com
- * date		: `date`
- * last update	: ${1:`date`}
- * 
- * description	: ${2:describe}
- */
-$0
-endsnippet
+#snippet file "file info" bA
+#/* file		: `!p snip.rv = path` 
+# * by		: waterlemon	429426523@qq.com
+# * date		: `date`
+# * last update	: ${1:`date`}
+# * 
+# * description	: ${2:describe}
+# */
+#$0
+#endsnippet
 
-snippet for "for loop (for)"
-for (${2:i} = 0; $2 < ${1:count}; ${3:++$2}) {
-	${VISUAL}$0
-}
-endsnippet
 
-snippet fori "for int loop (fori)"
-for (${4:int} ${2:i} = 1; $2 <= ${1:count}; ${3:++$2}) {
-	${VISUAL}$0
-}
-endsnippet
-
-snippet printf "printf .. (printf)"
-printf("${1:%s}\n"${1/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\);)/}
-endsnippet
-
-snippet struct "struct" wA
-struct ${1:`!p snip.rv = (snip.basename or "name") + "_t"`} {
-$0
-};
-endsnippet
-
-snippet main "" bA
-int main()
-{
-    ${1:}
-}
-endsnippet
-
-snippet coml "line comment" wA
+snippet com "line comment" w
 /* ${1:} */$0
 endsnippet
 
-snippet coma "lines comment" bA 
-/*
-$1
-*/$0
-endsnippet
-
-snippet #ifndef "#ifndef ... #define ... #endif" bA
-#ifndef	    ${1/([A-Za-z0-9_]+).*/$1/}
-#define	    ${1:SYMBOL}
-$0
-
-#endif
-endsnippet

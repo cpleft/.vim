@@ -2,6 +2,7 @@ set nocompatible              " be iMproved, required
 filetype plugin indent on
 syntax on
 
+set backspace=eol,indent
 
 "------nomal---------
 set tabstop=8
@@ -25,6 +26,8 @@ set conceallevel=2
 
 set wildignorecase
 
+set autochdir
+
 "-----------Searching---------
 set hlsearch
 set incsearch
@@ -41,17 +44,16 @@ augroup END
 
 
 "---------mapping----------------
-nmap <leader>ev :sp $MYVIMRC<cr>
-nmap <leader>es :sp ~/.vim/UltiSnips/
-nmap <leader>eg :sp $MYGVIMRC<cr>
+nmap <leader>ev :tabedit $MYVIMRC<cr>
+nmap <leader>es :tabedit ~/.vim/UltiSnips/
+nmap <leader>eg :tabedit $MYGVIMRC<cr>
 
 
 map <m-j> 10j
 map <m-k> 10k
 
-
-nmap <leader>bp :bp<cr>
-nmap <leader>bn :bn<cr>
+"how do I close a buffer without close the window?
+nnoremap <leader>bd :bNext <bar> bdelete # <cr>
 
 vmap <leader>y "+y
 nmap <leader>v ggVG
@@ -74,7 +76,6 @@ nmap <leader>l a<space><esc>
 
 "gf
 nmap gf :e <cfile>
-
 
 "--------split management---------
 set splitbelow
@@ -129,3 +130,5 @@ let g:tex_conceal='abdmg'
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+

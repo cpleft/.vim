@@ -10,3 +10,6 @@
 [submodule "pack/thirdparty/opt/vimtex"]
 	path = pack/thirdparty/opt/vimtex
 	url = git@github.com:lervag/vimtex.git
+[submodule "pack/thirdparty/opt/killersheep"]
+	path = pack/thirdparty/opt/killersheep
+	url = git@github.com:vim/killersheep.git
